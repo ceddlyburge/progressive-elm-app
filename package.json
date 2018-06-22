@@ -1,0 +1,15 @@
+{
+  "name": "progessive-elm-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "start": "webpack-dev-server --port 3000 --mode=development"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack-cli": "^3.0.8"
+  }
+}

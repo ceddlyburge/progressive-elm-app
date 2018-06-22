@@ -1,0 +1,6 @@
+elm-stuff/
+node_modules/
+tmp/
+dist/
+aws-config.json
+npm-debug.*
