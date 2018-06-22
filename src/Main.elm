@@ -1,4 +1,4 @@
 import Html
 
 main : Html.Html msg
-main = Html.text "Hello World"
+main = Html.text "Hello World Progessive with WebPack"
