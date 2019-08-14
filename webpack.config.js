@@ -24,7 +24,7 @@ module.exports = {
       {
         test:    /\.elm$/,
         exclude: [/elm-stuff/, /node_modules/],
-        loader:  'elm-webpack-loader?verbose=true&warn=true',
+        loader:  'elm-webpack-loader?verbose=true',
       }
     ],
 
@@ -49,7 +49,8 @@ module.exports = {
       background_color: '#ffffff',
       theme_color: '#000000',
       start_url: '/',
-      icons: [
+      fingerprints: false,
+	  icons: [
         {
           src: path.resolve('src/static/img/icon.png'),
           sizes: [192],
