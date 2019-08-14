@@ -7,3 +7,8 @@ The associated blog post is a from scratch tutorial that starts with a minimal E
 [How to make an Elm App Progressive](https://codeburst.io/how-to-make-an-elm-app-progressive-d2e17d2f6fea)
 
 This code is deployed at https://webpack-progressive-231355.netlify.com/. It isn't very exciting, but can can see it working.
+
+If you want to run the code locally:
+- Install Elm 0.19
+- `npm install`
+- `npm start`
